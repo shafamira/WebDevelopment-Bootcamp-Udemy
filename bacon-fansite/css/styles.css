@@ -1,0 +1,37 @@
+/* TAG SELECTORS */
+h1{
+    color: red;
+    font-size: 90px;
+}
+
+img:hover{
+    background-color: gold;
+}
+
+/* class & id -> more specifics so that the output is
+which has class & id selector first */
+
+/* when you have to use id and class?
+id -> must unique (so we can't have the same name on id)
+SO? we use class if we want to apply the same style to a group of 
+related items and use the id to apply a specific style 
+to single element on our web page
+*/
+
+/* CLASS SELECTORS */
+.bacon{
+    background-color: green;
+}
+
+.broccoli{
+    background-color: red;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/* ID SELECTORS */
+#heading{
+    color: purple;
+}
